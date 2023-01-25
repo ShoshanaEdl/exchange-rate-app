@@ -1,0 +1,4 @@
+export const getNegativeExchangeRatesAction = (response) => ({
+  type: "getNegativeExchangeRates",
+  payload: response.data
+});
